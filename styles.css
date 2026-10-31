@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: yellow;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+}
+#artist_info{
+    background-image: src = "images/talking_heads-speaking_in_tongues.png";
+}
+.Section-about{
+align-items: left;
+width: fit-content;
+height: fit-content;
+display: flex;
+}
