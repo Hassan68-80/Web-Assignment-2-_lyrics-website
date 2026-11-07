@@ -79,6 +79,7 @@ main > header {
     width: 75px;
     height: 75px;
     object-fit: cover;
+    margin-left: auto;
     border: 2px solid yellow;
 }
 
@@ -97,7 +98,7 @@ article {
 
 /* Lyrics section */
 #lyrics {
-    width: 90%;
+    width: 60%;
 }
 
 /* Individual verse and chorus sections */
