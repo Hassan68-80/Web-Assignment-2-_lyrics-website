@@ -72,7 +72,6 @@ main > header {
     margin: 0;
 }
 
-
 /* Album cover */
 #album_cover img {
     width: 75px;
@@ -80,7 +79,6 @@ main > header {
     object-fit: cover;
     border: 2px solid yellow;
 }
-
 
 /* Main content layout */
 article {
@@ -91,7 +89,6 @@ article {
     width: 88%;
     margin: 16px auto 40px auto;
 }
-
 
 /* Lyrics section */
 #lyrics {
