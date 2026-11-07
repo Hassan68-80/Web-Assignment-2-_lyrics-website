@@ -17,3 +17,22 @@ body > header h1 {
     margin: 0;
     padding: 5px;
 }
+nav {
+    background-color: #555;
+    padding: 7px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 80px;
+}
+/* calling achor using decendant selector */
+nav ul li a {
+    color: white;
+    font-size: 9px;
+    text-transform: lowercase;
+}
