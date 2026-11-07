@@ -1,3 +1,4 @@
+/* General page styling */
 body {
     margin: 0;
     padding: 3px;
@@ -39,11 +40,15 @@ nav ul li a {
 
 main > header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative; 
+    width: 100%;
+    box-sizing: border-box;
     padding: 15px 3%;
-    min-height: 80px;
-    background-color: #17202a;
+    min-height: 110px;
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
                       url("images/talking_heads-speaking_in_tongues.png");
     background-size: cover;
@@ -72,18 +77,22 @@ main > header {
     text-transform: uppercase;
     margin: 0;
 }
-
-
 /* Album cover */
 #album_cover img {
     width: 75px;
-    height: 75px;
+    height: 80px;
+    /* margin-left: auto; */
     object-fit: cover;
-    margin-left: auto;
+    flex-shrink: 0;
     border: 2px solid yellow;
 }
-
-
+#album_cover {
+   position: absolute;
+    right: 3%;
+    top: 7%;
+    bottom: 0;
+    margin: auto 0
+}
 /* Main content layout */
 article {
     display: flex;
@@ -93,12 +102,9 @@ article {
     width: 88%;
     margin: 16px auto 40px auto;
 }
-
-
-
 /* Lyrics section */
 #lyrics {
-    width: 60%;
+    width: 90%;
 }
 
 /* Individual verse and chorus sections */
@@ -111,7 +117,7 @@ article {
 
 /* to move alternating sections slightly to the right */
 #lyrics section:nth-child(even) {
-    margin-left: 35%;
+    margin-left: 25%;
 }
 
 /* Lyrics headings */
@@ -138,6 +144,7 @@ article {
     background-color: #555;
     color: white;
     padding-bottom: 15px;
+    margin-left: auto;
 }
 #about h2 {
     background-color: yellow;
