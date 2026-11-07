@@ -102,3 +102,7 @@ article {
     border-left: 2px solid yellow;
     padding-left: 5px;
 }
+/* to move alternating sections slightly to the right */
+#lyrics section:nth-child(even) {
+    margin-left: 35%;
+}
