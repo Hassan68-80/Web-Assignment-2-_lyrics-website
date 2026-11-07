@@ -139,3 +139,19 @@ article {
     padding: 11px;
     margin: 0;
 }
+
+#about p {
+    font-size: 9px;
+    line-height: 1.2;
+    margin: 10px;
+}
+
+#about blockquote {
+    font-size: 9px;
+    line-height: 1.2;
+    font-style: italic;
+    margin: 10px 15px 10px 30px;
+}
+#about blockquote a {
+    color: yellow;
+}
