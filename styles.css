@@ -155,3 +155,16 @@ article {
 #about blockquote a {
     color: yellow;
 }
+footer {
+    border-top: 3px solid yellow;
+    margin-top: 40px;
+    padding: 25px 15px;
+    text-align: center;
+    font-size: 7px;
+    color: #888;
+}
+footer a {
+    background-color: yellow;
+    color: #555;
+    text-decoration: underline;
+}
