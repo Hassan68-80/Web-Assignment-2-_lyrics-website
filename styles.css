@@ -1,4 +1,3 @@
-/* General page styling */
 body {
     margin: 0;
     padding: 3px;
@@ -17,6 +16,7 @@ body > header h1 {
     margin: 0;
     padding: 5px;
 }
+/* general nav styling */
 nav {
     background-color: #555;
     padding: 7px 0;
@@ -36,6 +36,7 @@ nav ul li a {
     font-size: 9px;
     text-transform: lowercase;
 }
+
 main > header {
     display: flex;
     justify-content: space-between;
@@ -72,6 +73,7 @@ main > header {
     margin: 0;
 }
 
+
 /* Album cover */
 #album_cover img {
     width: 75px;
@@ -79,6 +81,7 @@ main > header {
     object-fit: cover;
     border: 2px solid yellow;
 }
+
 
 /* Main content layout */
 article {
@@ -90,7 +93,7 @@ article {
     margin: 16px auto 40px auto;
 }
 
-/* Lyrics section */
+/* lyrics section */
 #lyrics {
     width: 90%;
 }
